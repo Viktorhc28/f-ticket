@@ -1,18 +1,16 @@
 <div class="layout">
-  <!-- Sidebar -->
   <div class="sidebar" [ngClass]="{'hidden': isMobile && !isSidebarVisible}">
     <h2>Menu</h2>
-    <p-panelMenu [model]="items" styleClass="w-full md:w-20rem"></p-panelMenu>
+    <p-panelMenu [model]="items"></p-panelMenu>
   </div>
 
-  <!-- App Header -->
   <header class="app-header">
     <button pButton icon="pi pi-bars" class="menu-button" (click)="toggleSidebar()" *ngIf="isMobile"></button>
-    <h1>{{ title }}</h1>
+    <h1>Mi Aplicación</h1>
   </header>
 
-  <!-- Main Content -->
   <main class="content">
-    <router-outlet></router-outlet>
+    <h2>Contenido Principal</h2>
+    <p>Aquí va el contenido de tu aplicación.</p>
   </main>
 </div>

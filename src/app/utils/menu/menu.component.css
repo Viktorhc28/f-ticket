@@ -1,0 +1,67 @@
+/* menu.component.css */
+.layout {
+    display: flex;
+    height: 100vh; /* Para ocupar toda la altura de la pantalla */
+  }
+  
+  .sidebar {
+    position: fixed; /* Hace que el sidebar esté fijo */
+    top: 0;
+    left: 0;
+    width: 250px; /* Ancho fijo */
+    height: 100%; /* Altura completa */
+    background-color: #007ad9; /* Color de fondo */
+    border-right: 1px solid #007ad9; /* Línea a la derecha */
+    padding: 20px; /* Espaciado */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    z-index: 1000; /* Para asegurar que esté encima de otros elementos */
+    transition: transform 0.3s ease; /* Transición suave */
+  }
+  
+  .sidebar.hidden {
+    transform: translateX(-100%); /* Oculta el sidebar en móviles */
+  }
+  
+  .app-header {
+    display: flex;
+    align-items: center;
+    background-color: #007ad9; /* Color de fondo de la barra superior */
+    color: white;
+    padding: 10px 20px; /* Espaciado */
+    flex-shrink: 0; /* No se encoge */
+    width: calc(100% - 250px); /* Ancho menos el ancho del sidebar */
+    margin-left: 250px; /* Dejar espacio para la sidebar */
+    position: fixed; /* Mantiene la barra en la parte superior */
+    top: 0; /* Alineación en la parte superior */
+    z-index: 999; /* Asegura que la barra superior esté en la parte superior */
+  }
+  
+  .content {
+    padding: 20px;
+    margin-left: 250px; /* Dejar espacio para la sidebar */
+    margin-top: 60px; /* Dejar espacio para la barra superior */
+    height: calc(100vh - 60px); /* Ajusta la altura del contenido */
+    overflow-y: auto; /* Permite el desplazamiento si es necesario */
+  }
+  
+  /* Media queries para responsividad */
+  @media (max-width: 768px) {
+    .sidebar {
+      display: block; /* Asegura que el sidebar esté en el DOM */
+    }
+  
+    .app-header {
+      margin-left: 0; /* Sin margen en pantallas pequeñas */
+      width: 100%; /* Ancho completo en pantallas pequeñas */
+    }
+  
+    .content {
+      margin-left: 0; /* Sin margen cuando la sidebar está oculta */
+      margin-top: 60px; /* Dejar espacio para la barra superior */
+    }
+  
+    .menu-button {
+      display: inline-block; /* Muestra el botón en pantallas pequeñas */
+    }
+  }
+  

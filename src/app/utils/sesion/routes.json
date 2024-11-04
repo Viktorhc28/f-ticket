@@ -1,0 +1,1316 @@
+{
+    "0": {
+        "routes": [
+            {
+                "text": "Reportes",
+                "icon": "chart-bar",
+                "children": [
+                    {
+                        "text": "Reporte de Ventas",
+                        "icon": "chart-bar",
+                        "route": "reportes/ventas"
+                    },
+                    {
+                        "text": "Reporte de Inventario",
+                        "icon": "chart-pie",
+                        "route": "reportes/inventario"
+                    }
+                ]
+            },
+            {
+                "text": "Clientes",
+                "icon": "users",
+                "route": "clientes/index",
+                "children": [
+                    {
+                        "text": "Clientes",
+                        "icon": "users",
+                        "route": "clientes/index"
+                    },
+                    {
+                        "text": "Reuniones",
+                        "icon": "calendar-day",
+                        "route": "reuniones/calendario"
+                    },
+                    {
+                        "text": "Cobranza",
+                        "icon": "hand-holding-usd",
+                        "route": "credito/index"
+                    }
+                ]
+            },
+            {
+                "text": "Taller",
+                "icon": "car",
+                "children": [
+                    {
+                        "text": "Órdenes de Trabajo",
+                        "icon": "oil-can",
+                        "route": "revisiones/index"
+                    },
+                    {
+                        "text": "Flujo OT",
+                        "icon": "table-columns",
+                        "route": "revisiones/flujo"
+                    },
+                    {
+                        "text": "Vehículos",
+                        "icon": "car",
+                        "route": "vehiculos/index"
+                    },
+                    {
+                        "text": "Recepción Vehículos",
+                        "icon": "book",
+                        "route": "recepcion-vehiculos/index"
+                    },
+                    {
+                        "text": "Servicios",
+                        "icon": "tools",
+                        "route": "servicio/index"
+                    }
+                ]
+            },
+            {
+                "text": "Ventas",
+                "icon": "money-bill",
+                "route": "revisiones/index-venta"
+            },
+            {
+                "text": "Cotizaciones",
+                "icon": "receipt",
+                "route": "revisiones/index-cotizacion"
+            },
+            {
+                "text": "Inventario",
+                "icon": "boxes",
+                "children": [
+                    {
+                        "text": "Productos",
+                        "icon": "box",
+                        "route": "producto/index"
+                    },
+                    {
+                        "text": "Stock Crítico",
+                        "icon": "bell",
+                        "route": "producto/stock-critico"
+                    },
+                    {
+                        "text": "Ajuste de Stock",
+                        "icon": "boxes",
+                        "route": "actualizacion-stock/index"
+                    }
+                ]
+            },
+            {
+                "text": "Egresos",
+                "icon": "money-bill",
+                "children": [
+                    {
+                        "text": "Gastos",
+                        "icon": "money-bill",
+                        "route": "gastos/index"
+                    },
+                    {
+                        "text": "Comisiones",
+                        "icon": "chart-bar",
+                        "route": "comision-encargado/index"
+                    },
+                    {
+                        "text": "Compra",
+                        "icon": "money-check-alt",
+                        "route": "compra/index"
+                    },
+                    {
+                        "text": "Proveedor",
+                        "icon": "user-friends",
+                        "route": "proveedor/index"
+                    }
+                ]
+            },
+            {
+                "text": "Usuarios",
+                "icon": "users",
+                "route": "usuarios/index-admin"
+            },
+            {
+                "text": "Publicidad",
+                "icon": "file-image",
+                "route": "publicidades/index"
+            },
+            {
+                "text": "Empresas",
+                "icon": "building",
+                "route": "empresa/index"
+            },
+            {
+                "text": "Parámetros",
+                "icon": "cogs",
+                "children": [
+                    {
+                        "text": "Categorías",
+                        "icon": "bars",
+                        "route": "categoria/index"
+                    },
+                    {
+                        "text": "Tipo de Gastos",
+                        "icon": "money-bill",
+                        "route": "tipo-gastos/index"
+                    },
+                    {
+                        "text": "Tipos de Ajuste",
+                        "icon": "list",
+                        "route": "tipo-actualizacion/index"
+                    },
+                    {
+                        "text": "Conceptos",
+                        "icon": "cog",
+                        "route": "tipo-servicio/index"
+                    },
+                    {
+                        "text": "Categorías Partner",
+                        "icon": "list",
+                        "route": "categoria-partner/index"
+                    }
+                ]
+            }
+        ]
+    },
+    "1": {
+        "routes": [
+            {
+                "text": "Reportes",
+                "icon": "chart-bar",
+                "children": [
+                    {
+                        "text": "Reporte de Ventas",
+                        "icon": "chart-bar",
+                        "route": "reportes/ventas"
+                    },
+                    {
+                        "text": "Reporte de Inventario",
+                        "icon": "chart-pie",
+                        "route": "reportes/inventario"
+                    }
+                ]
+            },
+            {
+                "text": "Clientes",
+                "icon": "users",
+                "route": "clientes/index",
+                "children": [
+                    {
+                        "text": "Clientes",
+                        "icon": "users",
+                        "route": "clientes/index"
+                    },
+                    {
+                        "text": "Reuniones",
+                        "icon": "calendar-day",
+                        "route": "reuniones/calendario"
+                    },
+                    {
+                        "text": "Cobranza",
+                        "icon": "hand-holding-usd",
+                        "route": "credito/index"
+                    }
+                ]
+            },
+            {
+                "text": "Taller",
+                "icon": "car",
+                "children": [
+                    {
+                        "text": "Órdenes de Trabajo",
+                        "icon": "oil-can",
+                        "route": "revisiones/index"
+                    },
+                    {
+                        "text": "Flujo OT",
+                        "icon": "table-columns",
+                        "route": "revisiones/flujo"
+                    },
+                    {
+                        "text": "Vehículos",
+                        "icon": "car",
+                        "route": "vehiculos/index"
+                    },
+                    {
+                        "text": "Recepción Vehículos",
+                        "icon": "book",
+                        "route": "recepcion-vehiculos/index"
+                    },
+                    {
+                        "text": "Servicios",
+                        "icon": "tools",
+                        "route": "servicio/index"
+                    },
+                    {
+                        "text": "Conceptos",
+                        "icon": "cog",
+                        "route": "tipo-servicio/index"
+                    }
+                ]
+            },
+            {
+                "text": "Ventas",
+                "icon": "money-bill",
+                "route": "revisiones/index-venta"
+            },
+            {
+                "text": "Cotizaciones",
+                "icon": "receipt",
+                "route": "revisiones/index-cotizacion"
+            },
+            {
+                "text": "Inventario",
+                "icon": "boxes",
+                "children": [
+                    {
+                        "text": "Productos",
+                        "icon": "box",
+                        "route": "producto/index"
+                    },
+                    {
+                        "text": "Categorías",
+                        "icon": "bars",
+                        "route": "categoria/index"
+                    },
+                    {
+                        "text": "Stock Crítico",
+                        "icon": "bell",
+                        "route": "producto/stock-critico"
+                    },
+                    {
+                        "text": "Ajuste de Stock",
+                        "icon": "boxes",
+                        "route": "actualizacion-stock/index"
+                    },
+                    {
+                        "text": "Tipos de Ajuste",
+                        "icon": "list",
+                        "route": "tipo-actualizacion/index"
+                    }
+                ]
+            },
+            {
+                "text": "Egresos",
+                "icon": "money-bill",
+                "children": [
+                    {
+                        "text": "Gastos",
+                        "icon": "money-bill",
+                        "route": "gastos/index"
+                    },
+                    {
+                        "text": "Comisiones",
+                        "icon": "chart-bar",
+                        "route": "comision-encargado/index"
+                    },
+                    {
+                        "text": "Compra",
+                        "icon": "money-check-alt",
+                        "route": "compra/index"
+                    },
+                    {
+                        "text": "Proveedor",
+                        "icon": "user-friends",
+                        "route": "proveedor/index"
+                    },
+                    {
+                        "text": "Tipo de Gastos",
+                        "icon": "money-bill",
+                        "route": "tipo-gastos/index"
+                    }
+                ]
+            },
+            {
+                "text": "Usuarios",
+                "icon": "users",
+                "route": "usuarios/index"
+            },
+            {
+                "text": "Publicidad",
+                "icon": "file-image",
+                "route": "publicidades/index"
+            },
+            {
+                "text": "Empresa",
+                "icon": "building",
+                "route": "empresa/registrar"
+            }
+        ]
+    },
+    "2": {
+        "routes": [
+            {
+                "text": "Reportes",
+                "icon": "chart-bar",
+                "children": [
+                    {
+                        "text": "Reporte de Ventas",
+                        "icon": "chart-bar",
+                        "route": "reportes/ventas"
+                    },
+                    {
+                        "text": "Reporte de Inventario",
+                        "icon": "chart-pie",
+                        "route": "reportes/inventario"
+                    }
+                ]
+            },
+            {
+                "text": "Clientes",
+                "icon": "users",
+                "route": "clientes/index",
+                "children": [
+                    {
+                        "text": "Clientes",
+                        "icon": "users",
+                        "route": "clientes/index"
+                    },
+                    {
+                        "text": "Reuniones",
+                        "icon": "calendar-day",
+                        "route": "reuniones/calendario"
+                    },
+                    {
+                        "text": "Cobranza",
+                        "icon": "hand-holding-usd",
+                        "route": "credito/index"
+                    }
+                ]
+            },
+            {
+                "text": "Taller",
+                "icon": "car",
+                "children": [
+                    {
+                        "text": "Órdenes de Trabajo",
+                        "icon": "oil-can",
+                        "route": "revisiones/index"
+                    },
+                    {
+                        "text": "Flujo OT",
+                        "icon": "table-columns",
+                        "route": "revisiones/flujo"
+                    },
+                    {
+                        "text": "Vehículos",
+                        "icon": "car",
+                        "route": "vehiculos/index"
+                    },
+                    {
+                        "text": "Recepción Vehículos",
+                        "icon": "book",
+                        "route": "recepcion-vehiculos/index"
+                    },
+                    {
+                        "text": "Servicios",
+                        "icon": "tools",
+                        "route": "servicio/index"
+                    },
+                    {
+                        "text": "Conceptos",
+                        "icon": "cog",
+                        "route": "tipo-servicio/index"
+                    }
+                ]
+            },
+            {
+                "text": "Ventas",
+                "icon": "money-bill",
+                "route": "revisiones/index-venta"
+            },
+            {
+                "text": "Cotizaciones",
+                "icon": "receipt",
+                "route": "revisiones/index-cotizacion"
+            },
+            {
+                "text": "Inventario",
+                "icon": "boxes",
+                "children": [
+                    {
+                        "text": "Productos",
+                        "icon": "box",
+                        "route": "producto/index"
+                    },
+                    {
+                        "text": "Categorías",
+                        "icon": "bars",
+                        "route": "categoria/index"
+                    },
+                    {
+                        "text": "Stock Crítico",
+                        "icon": "bell",
+                        "route": "producto/stock-critico"
+                    },
+                    {
+                        "text": "Ajuste de Stock",
+                        "icon": "boxes",
+                        "route": "actualizacion-stock/index"
+                    },
+                    {
+                        "text": "Tipos de Ajuste",
+                        "icon": "list",
+                        "route": "tipo-actualizacion/index"
+                    }
+                ]
+            },
+            {
+                "text": "Egresos",
+                "icon": "money-bill",
+                "children": [
+                    {
+                        "text": "Gastos",
+                        "icon": "money-bill",
+                        "route": "gastos/index"
+                    },
+                    {
+                        "text": "Comisiones",
+                        "icon": "chart-bar",
+                        "route": "comision-encargado/index"
+                    },
+                    {
+                        "text": "Compra",
+                        "icon": "money-check-alt",
+                        "route": "compra/index"
+                    },
+                    {
+                        "text": "Proveedor",
+                        "icon": "user-friends",
+                        "route": "proveedor/index"
+                    },
+                    {
+                        "text": "Tipo de Gastos",
+                        "icon": "money-bill",
+                        "route": "tipo-gastos/index"
+                    }
+                ]
+            },
+            {
+                "text": "Usuarios",
+                "icon": "users",
+                "route": "usuarios/index"
+            },
+            {
+                "text": "Publicidad",
+                "icon": "file-image",
+                "route": "publicidades/index"
+            },
+            {
+                "text": "Empresa",
+                "icon": "building",
+                "route": "empresa/registrar"
+            }
+        ]
+    },
+    "3": {
+        "routes": [
+            {
+                "text": "Taller",
+                "icon": "car",
+                "children": [
+                    {
+                        "text": "Órdenes de Trabajo",
+                        "icon": "oil-can",
+                        "route": "revisiones/index"
+                    },
+                    {
+                        "text": "Flujo OT",
+                        "icon": "table-columns",
+                        "route": "revisiones/flujo"
+                    },
+                    {
+                        "text": "Vehículos",
+                        "icon": "car",
+                        "route": "vehiculos/index"
+                    },
+                    {
+                        "text": "Recepción Vehículos",
+                        "icon": "book",
+                        "route": "recepcion-vehiculos/index"
+                    },
+                    {
+                        "text": "Servicios",
+                        "icon": "tools",
+                        "route": "servicio/index"
+                    }
+                ]
+            },
+            {
+                "text": "Clientes",
+                "icon": "users",
+                "route": "clientes/index",
+                "children": [
+                    {
+                        "text": "Clientes",
+                        "icon": "users",
+                        "route": "clientes/index"
+                    },
+                    {
+                        "text": "Reuniones",
+                        "icon": "calendar-day",
+                        "route": "reuniones/calendario"
+                    },
+                    {
+                        "text": "Cobranza",
+                        "icon": "hand-holding-usd",
+                        "route": "credito/index"
+                    }
+                ]
+            },
+            {
+                "text": "Ventas",
+                "icon": "money-bill",
+                "route": "revisiones/index-venta"
+            },
+            {
+                "text": "Cotizaciones",
+                "icon": "receipt",
+                "route": "revisiones/index-cotizacion"
+            },
+            {
+                "text": "Inventario",
+                "icon": "boxes",
+                "children": [
+                    {
+                        "text": "Productos",
+                        "icon": "box",
+                        "route": "producto/index"
+                    },
+                    {
+                        "text": "Stock Crítico",
+                        "icon": "bell",
+                        "route": "producto/stock-critico"
+                    },
+                    {
+                        "text": "Ajuste de Stock",
+                        "icon": "boxes",
+                        "route": "actualizacion-stock/index"
+                    }
+                ]
+            },
+            {
+                "text": "Egresos",
+                "icon": "money-bill",
+                "children": [
+                    {
+                        "text": "Gastos",
+                        "icon": "money-bill",
+                        "route": "gastos/index"
+                    },
+                    {
+                        "text": "Comisiones",
+                        "icon": "chart-bar",
+                        "route": "comision-encargado/index"
+                    },
+                    {
+                        "text": "Compra",
+                        "icon": "money-check-alt",
+                        "route": "compra/index"
+                    },
+                    {
+                        "text": "Proveedor",
+                        "icon": "user-friends",
+                        "route": "proveedor/index"
+                    }
+                ]
+            }
+        ]
+    },
+    "4": {
+        "routes": [
+            {
+                "text": "Taller",
+                "icon": "car",
+                "children": [
+                    {
+                        "text": "Órdenes de Trabajo",
+                        "icon": "oil-can",
+                        "route": "revisiones/index"
+                    },
+                    {
+                        "text": "Flujo OT",
+                        "icon": "table-columns",
+                        "route": "revisiones/flujo"
+                    },
+                    {
+                        "text": "Vehículos",
+                        "icon": "car",
+                        "route": "vehiculos/index"
+                    },
+                    {
+                        "text": "Recepción Vehículos",
+                        "icon": "book",
+                        "route": "recepcion-vehiculos/index"
+                    },
+                    {
+                        "text": "Servicios",
+                        "icon": "tools",
+                        "route": "servicio/index"
+                    }
+                ]
+            },
+            {
+                "text": "Clientes",
+                "icon": "users",
+                "route": "clientes/index",
+                "children": [
+                    {
+                        "text": "Clientes",
+                        "icon": "users",
+                        "route": "clientes/index"
+                    },
+                    {
+                        "text": "Reuniones",
+                        "icon": "calendar-day",
+                        "route": "reuniones/calendario"
+                    },
+                    {
+                        "text": "Cobranza",
+                        "icon": "hand-holding-usd",
+                        "route": "credito/index"
+                    }
+                ]
+            },
+            {
+                "text": "Ventas",
+                "icon": "money-bill",
+                "route": "revisiones/index-venta"
+            },
+            {
+                "text": "Cotizaciones",
+                "icon": "receipt",
+                "route": "revisiones/index-cotizacion"
+            },
+            {
+                "text": "Inventario",
+                "icon": "boxes",
+                "children": [
+                    {
+                        "text": "Productos",
+                        "icon": "box",
+                        "route": "producto/index"
+                    },
+                    {
+                        "text": "Stock Crítico",
+                        "icon": "bell",
+                        "route": "producto/stock-critico"
+                    },
+                    {
+                        "text": "Ajuste de Stock",
+                        "icon": "boxes",
+                        "route": "actualizacion-stock/index"
+                    }
+                ]
+            },
+            {
+                "text": "Egresos",
+                "icon": "money-bill",
+                "children": [
+                    {
+                        "text": "Gastos",
+                        "icon": "money-bill",
+                        "route": "gastos/index"
+                    },
+                    {
+                        "text": "Comisiones",
+                        "icon": "chart-bar",
+                        "route": "comision-encargado/index"
+                    },
+                    {
+                        "text": "Compra",
+                        "icon": "money-check-alt",
+                        "route": "compra/index"
+                    },
+                    {
+                        "text": "Proveedor",
+                        "icon": "user-friends",
+                        "route": "proveedor/index"
+                    }
+                ]
+            }
+        ]
+    },
+    "5": {
+        "routes": [
+            {
+                "text": "Taller",
+                "icon": "car",
+                "children": [
+                    {
+                        "text": "Órdenes de Trabajo",
+                        "icon": "oil-can",
+                        "route": "revisiones/index"
+                    },
+                    {
+                        "text": "Vehículos",
+                        "icon": "car",
+                        "route": "vehiculos/index"
+                    },
+                    {
+                        "text": "Recepción Vehículos",
+                        "icon": "book",
+                        "route": "recepcion-vehiculos/index"
+                    },
+                    {
+                        "text": "Servicios",
+                        "icon": "tools",
+                        "route": "servicio/index"
+                    }
+                ]
+            },
+            {
+                "text": "Clientes",
+                "icon": "users",
+                "route": "clientes/index",
+                "children": [
+                    {
+                        "text": "Clientes",
+                        "icon": "users",
+                        "route": "clientes/index"
+                    },
+                    {
+                        "text": "Reuniones",
+                        "icon": "calendar-day",
+                        "route": "reuniones/calendario"
+                    },
+                    {
+                        "text": "Cobranza",
+                        "icon": "hand-holding-usd",
+                        "route": "credito/index"
+                    }
+                ]
+            },
+            {
+                "text": "Ventas",
+                "icon": "money-bill",
+                "route": "revisiones/index-venta"
+            },
+            {
+                "text": "Cotizaciones",
+                "icon": "receipt",
+                "route": "revisiones/index-cotizacion"
+            },
+            {
+                "text": "Inventario",
+                "icon": "boxes",
+                "children": [
+                    {
+                        "text": "Productos",
+                        "icon": "box",
+                        "route": "producto/index"
+                    },
+                    {
+                        "text": "Stock Crítico",
+                        "icon": "bell",
+                        "route": "producto/stock-critico"
+                    },
+                    {
+                        "text": "Ajuste de Stock",
+                        "icon": "boxes",
+                        "route": "actualizacion-stock/index"
+                    }
+                ]
+            },
+            {
+                "text": "Egresos",
+                "icon": "money-bill",
+                "children": [
+                    {
+                        "text": "Gastos",
+                        "icon": "money-bill",
+                        "route": "gastos/index"
+                    },
+                    {
+                        "text": "Comisiones",
+                        "icon": "chart-bar",
+                        "route": "comision-encargado/index"
+                    },
+                    {
+                        "text": "Compra",
+                        "icon": "money-check-alt",
+                        "route": "compra/index"
+                    },
+                    {
+                        "text": "Proveedor",
+                        "icon": "user-friends",
+                        "route": "proveedor/index"
+                    }
+                ]
+            }
+        ]
+    },
+    "6": {
+        "routes": [
+            {
+                "text": "Taller",
+                "icon": "car",
+                "children": [
+                    {
+                        "text": "Órdenes de Trabajo",
+                        "icon": "oil-can",
+                        "route": "revisiones/index"
+                    },
+                    {
+                        "text": "Vehículos",
+                        "icon": "car",
+                        "route": "vehiculos/index"
+                    },
+                    {
+                        "text": "Recepción Vehículos",
+                        "icon": "book",
+                        "route": "recepcion-vehiculos/index"
+                    },
+                    {
+                        "text": "Servicios",
+                        "icon": "tools",
+                        "route": "servicio/index"
+                    }
+                ]
+            },
+            {
+                "text": "Clientes",
+                "icon": "users",
+                "route": "clientes/index",
+                "children": [
+                    {
+                        "text": "Clientes",
+                        "icon": "users",
+                        "route": "clientes/index"
+                    },
+                    {
+                        "text": "Reuniones",
+                        "icon": "calendar-day",
+                        "route": "reuniones/calendario"
+                    },
+                    {
+                        "text": "Cobranza",
+                        "icon": "hand-holding-usd",
+                        "route": "credito/index"
+                    }
+                ]
+            },
+            {
+                "text": "Ventas",
+                "icon": "money-bill",
+                "route": "revisiones/index-venta"
+            },
+            {
+                "text": "Cotizaciones",
+                "icon": "receipt",
+                "route": "revisiones/index-cotizacion"
+            },
+            {
+                "text": "Inventario",
+                "icon": "boxes",
+                "children": [
+                    {
+                        "text": "Productos",
+                        "icon": "box",
+                        "route": "producto/index"
+                    },
+                    {
+                        "text": "Stock Crítico",
+                        "icon": "bell",
+                        "route": "producto/stock-critico"
+                    },
+                    {
+                        "text": "Ajuste de Stock",
+                        "icon": "boxes",
+                        "route": "actualizacion-stock/index"
+                    }
+                ]
+            },
+            {
+                "text": "Egresos",
+                "icon": "money-bill",
+                "children": [
+                    {
+                        "text": "Gastos",
+                        "icon": "money-bill",
+                        "route": "gastos/index"
+                    },
+                    {
+                        "text": "Comisiones",
+                        "icon": "chart-bar",
+                        "route": "comision-encargado/index"
+                    },
+                    {
+                        "text": "Compra",
+                        "icon": "money-check-alt",
+                        "route": "compra/index"
+                    },
+                    {
+                        "text": "Proveedor",
+                        "icon": "user-friends",
+                        "route": "proveedor/index"
+                    }
+                ]
+            }
+        ]
+    },
+    "7": {
+        "routes": [
+            {
+                "text": "Taller",
+                "icon": "car",
+                "children": [
+                    {
+                        "text": "Órdenes de Trabajo",
+                        "icon": "oil-can",
+                        "route": "revisiones/index"
+                    },
+                    {
+                        "text": "Flujo OT",
+                        "icon": "table-columns",
+                        "route": "revisiones/flujo"
+                    },
+                    {
+                        "text": "Vehículos",
+                        "icon": "car",
+                        "route": "vehiculos/index"
+                    },
+                    {
+                        "text": "Recepción Vehículos",
+                        "icon": "book",
+                        "route": "recepcion-vehiculos/index"
+                    },
+                    {
+                        "text": "Servicios",
+                        "icon": "tools",
+                        "route": "servicio/index"
+                    }
+                ]
+            },
+            {
+                "text": "Ventas",
+                "icon": "money-bill",
+                "route": "revisiones/index-venta"
+            },
+            {
+                "text": "Cotizaciones",
+                "icon": "receipt",
+                "route": "revisiones/index-cotizacion"
+            },
+            {
+                "text": "Clientes",
+                "icon": "users",
+                "route": "clientes/index",
+                "children": [
+                    {
+                        "text": "Clientes",
+                        "icon": "users",
+                        "route": "clientes/index"
+                    },
+                    {
+                        "text": "Cobranza",
+                        "icon": "hand-holding-usd",
+                        "route": "credito/index"
+                    }
+                ]
+            },
+            {
+                "text": "Inventario",
+                "icon": "boxes",
+                "children": [
+                    {
+                        "text": "Productos",
+                        "icon": "box",
+                        "route": "producto/index"
+                    },
+                    {
+                        "text": "Stock Crítico",
+                        "icon": "bell",
+                        "route": "producto/stock-critico"
+                    },
+                    {
+                        "text": "Ajuste de Stock",
+                        "icon": "boxes",
+                        "route": "actualizacion-stock/index"
+                    }
+                ]
+            },
+            {
+                "text": "Egresos",
+                "icon": "money-bill",
+                "children": [
+                    {
+                        "text": "Gastos",
+                        "icon": "money-bill",
+                        "route": "gastos/index"
+                    },
+                    {
+                        "text": "Comisiones",
+                        "icon": "chart-bar",
+                        "route": "comision-encargado/index"
+                    },
+                    {
+                        "text": "Compra",
+                        "icon": "money-check-alt",
+                        "route": "compra/index"
+                    },
+                    {
+                        "text": "Proveedor",
+                        "icon": "user-friends",
+                        "route": "proveedor/index"
+                    }
+                ]
+            },
+            {
+                "text": "Publicidad",
+                "icon": "file-image",
+                "route": "publicidades/index"
+            }
+        ]
+    },
+    "8": {
+        "routes": [
+            {
+                "text": "Clientes",
+                "icon": "users",
+                "route": "clientes/index",
+                "children": [
+                    {
+                        "text": "Clientes",
+                        "icon": "users",
+                        "route": "clientes/index"
+                    },
+                    {
+                        "text": "Cobranza",
+                        "icon": "hand-holding-usd",
+                        "route": "credito/index"
+                    }
+                ]
+            },
+            {
+                "text": "Taller",
+                "icon": "car",
+                "children": [
+                    {
+                        "text": "Órdenes de Trabajo",
+                        "icon": "oil-can",
+                        "route": "revisiones/index"
+                    },
+                    {
+                        "text": "Flujo OT",
+                        "icon": "table-columns",
+                        "route": "revisiones/flujo"
+                    },
+                    {
+                        "text": "Vehículos",
+                        "icon": "car",
+                        "route": "vehiculos/index"
+                    },
+                    {
+                        "text": "Recepción Vehículos",
+                        "icon": "book",
+                        "route": "recepcion-vehiculos/index"
+                    },
+                    {
+                        "text": "Servicios",
+                        "icon": "tools",
+                        "route": "servicio/index"
+                    }
+                ]
+            },
+            {
+                "text": "Ventas",
+                "icon": "money-bill",
+                "route": "revisiones/index-venta"
+            },
+            {
+                "text": "Inventario",
+                "icon": "boxes",
+                "children": [
+                    {
+                        "text": "Productos",
+                        "icon": "box",
+                        "route": "producto/index"
+                    },
+                    {
+                        "text": "Stock Crítico",
+                        "icon": "bell",
+                        "route": "producto/stock-critico"
+                    },
+                    {
+                        "text": "Ajuste de Stock",
+                        "icon": "boxes",
+                        "route": "actualizacion-stock/index"
+                    }
+                ]
+            },
+            {
+                "text": "Egresos",
+                "icon": "money-bill",
+                "children": [
+                    {
+                        "text": "Gastos",
+                        "icon": "money-bill",
+                        "route": "gastos/index"
+                    },
+                    {
+                        "text": "Comisiones",
+                        "icon": "chart-bar",
+                        "route": "comision-encargado/index"
+                    },
+                    {
+                        "text": "Compra",
+                        "icon": "money-check-alt",
+                        "route": "compra/index"
+                    },
+                    {
+                        "text": "Proveedor",
+                        "icon": "user-friends",
+                        "route": "proveedor/index"
+                    }
+                ]
+            }
+        ]
+    },
+    "9": {
+        "routes": [
+            {
+                "text": "Clientes",
+                "icon": "users",
+                "route": "clientes/index",
+                "children": [
+                    {
+                        "text": "Clientes",
+                        "icon": "users",
+                        "route": "clientes/index"
+                    },
+                    {
+                        "text": "Reuniones",
+                        "icon": "calendar-day",
+                        "route": "reuniones/calendario"
+                    },
+                    {
+                        "text": "Cobranza",
+                        "icon": "hand-holding-usd",
+                        "route": "credito/index"
+                    }
+                ]
+            },
+            {
+                "text": "Taller",
+                "icon": "car",
+                "children": [
+                    {
+                        "text": "Órdenes de Trabajo",
+                        "icon": "oil-can",
+                        "route": "revisiones/index"
+                    },
+                    {
+                        "text": "Flujo OT",
+                        "icon": "table-columns",
+                        "route": "revisiones/flujo"
+                    },
+                    {
+                        "text": "Vehículos",
+                        "icon": "car",
+                        "route": "vehiculos/index"
+                    },
+                    {
+                        "text": "Recepción Vehículos",
+                        "icon": "book",
+                        "route": "recepcion-vehiculos/index"
+                    },
+                    {
+                        "text": "Servicios",
+                        "icon": "tools",
+                        "route": "servicio/index"
+                    }
+                ]
+            },
+            {
+                "text": "Clientes",
+                "icon": "users",
+                "route": "clientes/index",
+                "children": [
+                    {
+                        "text": "Clientes",
+                        "icon": "users",
+                        "route": "clientes/index"
+                    },
+                    {
+                        "text": "Reuniones",
+                        "icon": "calendar-day",
+                        "route": "reuniones/calendario"
+                    },
+                    {
+                        "text": "Cobranza",
+                        "icon": "hand-holding-usd",
+                        "route": "credito/index"
+                    }
+                ]
+            },
+            {
+                "text": "Ventas",
+                "icon": "money-bill",
+                "route": "revisiones/index-venta"
+            },
+            {
+                "text": "Inventario",
+                "icon": "boxes",
+                "children": [
+                    {
+                        "text": "Productos",
+                        "icon": "box",
+                        "route": "producto/index"
+                    },
+                    {
+                        "text": "Stock Crítico",
+                        "icon": "bell",
+                        "route": "producto/stock-critico"
+                    },
+                    {
+                        "text": "Ajuste de Stock",
+                        "icon": "boxes",
+                        "route": "actualizacion-stock/index"
+                    }
+                ]
+            },
+            {
+                "text": "Egresos",
+                "icon": "money-bill",
+                "children": [
+                    {
+                        "text": "Gastos",
+                        "icon": "money-bill",
+                        "route": "gastos/index"
+                    },
+                    {
+                        "text": "Comisiones",
+                        "icon": "chart-bar",
+                        "route": "comision-encargado/index"
+                    },
+                    {
+                        "text": "Compra",
+                        "icon": "money-check-alt",
+                        "route": "compra/index"
+                    },
+                    {
+                        "text": "Proveedor",
+                        "icon": "user-friends",
+                        "route": "proveedor/index"
+                    }
+                ]
+            }
+        ]
+    },
+    "100": {
+        "routes": [
+            {
+                "text": "Información de Empresa",
+                "icon": "building",
+                "route": "empresa/partner"
+            }, {
+                "text": "Configurar Anuncios",
+                "icon": "file-image",
+                "route": "publicidad-partner/index"
+            }
+        ]
+    }
+}

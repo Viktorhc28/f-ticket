@@ -1,70 +1,53 @@
-import { Component, HostListener, ViewEncapsulation } from '@angular/core';
-import { Router, RouterOutlet } from '@angular/router';
-import { MenuComponent } from "./utils/menu/menu.component";
+import { Component, HostListener } from '@angular/core';
 import { SidebarModule } from 'primeng/sidebar';
 import { ButtonModule } from 'primeng/button';
 import { MenuModule } from 'primeng/menu';
 import { PanelMenuModule } from 'primeng/panelmenu';
+import { MenuItem } from 'primeng/api';
 import { CommonModule } from '@angular/common';
-import { MenuItem, MessageService } from 'primeng/api';
-import { HttpClientModule } from '@angular/common/http';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-menu',
   standalone: true,
   imports: [
-    RouterOutlet,
-    MenuComponent,
     SidebarModule,
     ButtonModule,
     MenuModule,
     PanelMenuModule,
-    CommonModule],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-  providers: [MessageService,HttpClientModule],
-  encapsulation: ViewEncapsulation.None
+    CommonModule
+  ],
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.css'] // Cambié 'styleUrl' a 'styleUrls'
 })
-export class AppComponent {
-  title = 'f-ticket';
-
-  constructor(private router: Router) { }
-
+export class MenuComponent {
   items: MenuItem[] = [
     {
-      label: 'Ciudad',
-      icon: 'fas fa-city',
-      command: () => this.router.navigate(['/ciudad'])
+      label: 'Home',
+      icon: 'pi pi-fw pi-home',
     },
     {
-      label: 'Autobus',
-      icon: 'fas fa-bus',
-      command: () => this.router.navigate(['/autobus'])
+      label: 'Orders',
+      icon: 'pi pi-fw pi-shopping-cart',
     },
     {
       label: 'Revenue',
       icon: 'pi pi-fw pi-chart-line',
-      command: () => this.router.navigate(['/revenue'])
     },
     {
       label: 'Customers',
       icon: 'pi pi-fw pi-users',
-      command: () => this.router.navigate(['/customers'])
     },
     {
       label: 'Comments',
       icon: 'pi pi-fw pi-comments',
-      command: () => this.router.navigate(['/comments'])
     },
     {
       label: 'Settings',
       icon: 'pi pi-fw pi-cog',
-      command: () => this.router.navigate(['/settings'])
     },
   ];
 
-
-
+  
   isMobile: boolean = false; // Para detectar si está en móvil
   isSidebarVisible: boolean = true; // La barra lateral comienza visible en pantallas completas
 

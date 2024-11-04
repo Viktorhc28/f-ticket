@@ -1,0 +1,36 @@
+<div class="modal-header">
+    <h4 class="modal-title">Detalle de Pais</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+</div>
+<div class="modal-body">
+    <form [formGroup]="form">
+        <div class="row">
+            <div class="form-group col-12 col-sm-12">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" formControlName="nombre"
+                    [ngClass]="{'is-invalid': form.controls['nombre'].errors && (form.controls['nombre'].dirty || form.controls['nombre'].touched)}">
+                <div class="invalid-feedback">
+                    Debe ingresar un valor en el campo
+                </div>
+                <div class="mb-4"
+                    *ngIf="!form.controls['nombre'].errors || !(form.controls['nombre'].dirty || form.controls['nombre'].touched)">
+                </div>
+            </div>
+            <div class="form-group col-12 col-sm-12">
+                <label for="pais">Pais</label>
+                <input type="text" class="form-control" id="pais" formControlName="pais"
+                    [ngClass]="{'is-invalid': form.controls['pais'].errors && (form.controls['pais'].dirty || form.controls['pais'].touched)}">
+                <div class="invalid-feedback">
+                    Debe ingresar un valor en el campo
+                </div>
+                <div class="mb-4"
+                    *ngIf="!form.controls['pais'].errors || !(form.controls['pais'].dirty || form.controls['pais'].touched)">
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="activeModal.dismiss('Cancel click')">Cerrar</button>
+</div>
